@@ -19,7 +19,8 @@
       "groupName": "GitHub Actions",
       "addLabels": [
         "actions"
-      ]
+      ],
+      "automerge": true
     },
     {
       "matchManagers": [
@@ -42,7 +43,8 @@
       "addLabels": [
         "non-breaking"
       ],
-      "groupName": "NuGet Packages - Minor Updates"
+      "groupName": "NuGet Packages - Minor Updates",
+      "automerge": true
     },
     {
       "matchManagers": [
