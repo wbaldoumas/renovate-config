@@ -1,12 +1,16 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Renovate configuration for Gossip",
-  "labels": [
+  "description": "A shareable Renovate configuration",
+  "extends": [
+    "config:base"
+  ],  
+  "dependencyDashboardLabels": [
     "dependencies",
     "renovate"
   ],
-  "extends": [
-    "config:base"
+  "labels": [
+    "dependencies",
+    "renovate"
   ],
   "ignorePaths": [],
   "schedule": [
